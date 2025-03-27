@@ -1,0 +1,15 @@
+[package]
+name = "decentralized-mentorship-platform"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0xff7cef4e9c10d28517c1399ad90e0b1536588807fe5f6c4799f47813e9a84c67"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
